@@ -30,7 +30,7 @@ test:
 
 about:
   home: http://github.com/keybase/python-twofish
-  license: BSD
+  license: BSD-3-Clause
   license_file: LICENSE
   license_family: BSD
   summary: Bindings for the Twofish implementation by Niels Ferguson
