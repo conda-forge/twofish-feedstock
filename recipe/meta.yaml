@@ -11,12 +11,13 @@ source:
   'sha256': 'b09d8bb50d33b23ff34cafb1f9209f858f752935c6a5c901efb92a41acb830fa'
 
 build:
-  number: 1003
+  number: 1004
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
